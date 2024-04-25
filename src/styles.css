@@ -107,6 +107,7 @@ section {
 .img-responsive {
   width: 570px;
   height: 481px;
+  border-radius: 8px;
 }
 
 footer {
