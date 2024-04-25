@@ -1,6 +1,9 @@
 :root {
   --heading-font-family: "Poppins", sans-serif;
 }
+body {
+  background: #272024;
+}
 .container {
   max-width: 1400px;
   margin: 0 auto;
