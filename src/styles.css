@@ -61,17 +61,57 @@ header a {
   display: inline-block;
   margin-top: 30px;
 }
-footer {
-  margin-top: 10px;
-  text-align: center;
+section {
+  max-width: 100%px;
+  margin: 0 auto;
+  padding: 100px;
 }
-footer p {
-  opacity: 0.5;
-  font-size: 15px;
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 20px;
+}
+
+footer {
+  background-image: linear-gradient(
+      rgba(39, 32, 68, 0.9),
+      rgba(39, 32, 68, 0.9)
+    ),
+    url("../images/london-footer-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+footer h4 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+}
+footer ul {
+  padding: 0;
+}
+footer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
   line-height: 1.5;
 }
+footer a {
+  color: #fff;
+  opacity: 0.7;
+}
+footer p {
+  font-family: var(--heading-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
 /* media queries for responsiveness */
-@media (max-width: 900px) {
+@media (max-width: 960px) {
   header {
     padding: 60px 0;
   }
@@ -83,5 +123,9 @@ footer p {
   }
   header h3 {
     font-size: 12px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
   }
 }
