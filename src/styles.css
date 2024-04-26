@@ -147,7 +147,7 @@ main p {
   text-align: center;
   opacity: 30%;
 }
-section h3 {
+.secondary h3 {
   font-family: var(--heading-font-family);
   font-size: 48px;
   font-weight: 700;
@@ -192,6 +192,27 @@ section h3 {
   text-align: center;
   text-decoration: none;
 }
+.gallery h2 {
+  font-family: var(--heading-font-family);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 5px;
+  text-align: center;
+  opacity: 30%;
+  margin-top: -20px;
+}
+.gallery h3 {
+  font-family: var(--heading-font-family);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+/* .text-center {
+  text-align: center;
+} */
 
 /* footet section styling */
 footer {
@@ -207,7 +228,7 @@ footer {
 footer h4 {
   font-weight: 700;
   font-size: 20px;
-  line-height: 30px;
+  line-height: 1.5;
   color: #fff;
 }
 footer ul {
@@ -227,8 +248,9 @@ footer p {
   font-family: var(--heading-font-family);
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   text-align: left;
+  opacity: 60%;
 }
 
 /* media queries for responsiveness */
