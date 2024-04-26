@@ -163,6 +163,13 @@ section h3 {
 .card {
   background: #272435;
 }
+.card-header.grid {
+  grid-gap: 0;
+}
+.embeded {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
 .card-body {
   padding: 30px;
 }
@@ -170,8 +177,8 @@ section h3 {
   padding: 0 30px 30px;
 }
 .cafe-img-responsive {
+  width: 100%;
   display: block;
-  max-width: 100%;
 }
 .btn {
   display: block;
@@ -251,5 +258,11 @@ footer p {
   .img-responsive {
     max-width: 100%;
     height: 300px;
+  }
+  .card-header img {
+    display: none;
+  }
+  .embeded {
+    aspect-ratio: 16/9;
   }
 }
