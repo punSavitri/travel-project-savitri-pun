@@ -75,17 +75,36 @@ main h2 {
   font-family: var(--heading-font-family);
   font-size: 16px;
   font-weight: 700;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 5px;
   text-align: left;
   color: #fff;
   margin: 0;
+  text-transform: uppercase;
 }
 main h3 {
   font-family: var(--heading-font-family);
   font-size: 40px;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 1.5;
+  text-align: left;
+  color: #fff;
+  margin: 0;
+}
+main h4 {
+  font-family: var(--heading-font-family);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: left;
+  color: #fff;
+  margin: 0;
+}
+main h5 {
+  font-family: var(--heading-font-family);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.5;
   text-align: left;
   color: #fff;
   margin: 0;
@@ -94,10 +113,12 @@ main p {
   font-family: var(--heading-font-family);
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   text-align: left;
   color: #fff;
+  opacity: 0.5;
 }
+
 .grid {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
@@ -106,30 +127,67 @@ main p {
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
 }
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
 .img-responsive {
   width: 570px;
   height: 481px;
   border-radius: 8px;
 }
-/* cards-image styling */
-section .secondary {
+
+.secondary {
   background: #181525;
+  padding-top: 50px;
 }
-section h2 {
-  font-family: Poppins;
+.secondary h2 {
+  font-family: var(--heading-font-family);
   font-size: 16px;
   font-weight: 700;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 5px;
   text-align: center;
+  opacity: 30%;
 }
 section h3 {
-  font-family: Poppins;
+  font-family: var(--heading-font-family);
   font-size: 48px;
   font-weight: 700;
-  line-height: 72px;
+  line-height: 1.5;
   text-align: center;
+  margin-bottom: 40px;
 }
+.why-london {
+  opacity: 50%;
+}
+.card {
+  background: #272435;
+}
+.card-body {
+  padding: 30px;
+}
+.card-footer {
+  padding: 0 30px 30px;
+}
+.cafe-img-responsive {
+  display: block;
+  max-width: 100%;
+}
+.btn {
+  display: block;
+  background-color: #462cb2;
+  color: #fff;
+  padding: 16px;
+  text-transform: uppercase;
+  font-family: var(--heading-font-family);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 3px;
+  text-align: center;
+  text-decoration: none;
+}
+
 /* footet section styling */
 footer {
   background-image: linear-gradient(
